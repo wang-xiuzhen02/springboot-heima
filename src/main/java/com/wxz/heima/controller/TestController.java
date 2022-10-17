@@ -80,6 +80,11 @@ public class   TestController {
         return testList;
     }
 
+    @RequestMapping("testGit")
+    public String testGit(){
+        return "test git";
+    }
+
 
 
 }
