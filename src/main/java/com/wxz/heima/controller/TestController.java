@@ -85,6 +85,11 @@ public class   TestController {
         return "test git";
     }
 
+    @RequestMapping("testGithotFix")
+    public String testGithotFix(){
+        return "test git hotFix";
+    }
+
 
 
 }
