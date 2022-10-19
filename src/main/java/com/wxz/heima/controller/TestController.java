@@ -87,7 +87,7 @@ public class   TestController {
 
     @RequestMapping("testGithotFix")
     public String testGithotFix(){
-        System.out.println("push test..............");
+        System.out.println("push test test test test.....");
         return "test git master....hotFix";
     }
 
