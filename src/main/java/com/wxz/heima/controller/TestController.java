@@ -91,6 +91,12 @@ public class   TestController {
         return "test git master....hotFix";
     }
 
+    @RequestMapping("testPushGitee")
+    public String testPushGitee(){
+        System.out.println("push testPushGitee.....");
+        return "test git master....testPushGitee";
+    }
+
 
 
 }
